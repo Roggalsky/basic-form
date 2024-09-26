@@ -1,0 +1,188 @@
+ *{
+  margin: 0 auto;
+ }
+
+ body{
+  background-color: rgba(27, 65, 252, 0.192);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  color:rgba(0, 0, 0, 0.732);
+
+ }
+
+.job-application{
+  height: 1000px;
+  width: 60vw;
+  background-color: aliceblue;
+}
+
+.header{
+  margin-left: 3em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.header p {
+  font-weight: 400;
+}
+
+.data{
+  border-top: 2px solid rgba(0, 0, 0, 0.182);
+  padding-left: 3em;
+  padding-top: 2em;
+  padding: 2em 3em 2em 3em;
+}
+.full-name{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2em;
+}
+.a{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0 10px 0 0 ;
+  width: 33.3333%;
+}
+.a input{
+  width: 100%;
+  height: 1.5em;
+  background-color: aliceblue;
+  border: 1px solid  rgba(0, 0, 0, 0.182);
+  border-radius: 5px;
+
+}
+.a label{
+  margin: 0;
+  font-size: 10px;
+  font-weight: 700;
+  margin-top: 2px;
+}
+
+.date{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2em;
+}
+.b{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0 10px 0 0 ;
+  width: 33.3333%;
+}
+.b label{
+  margin: 0;
+  font-size: 10px;
+  font-weight: 700;
+  margin-top: 2px;
+}
+.b input{
+  width: 100%;
+  height: 1.5em;
+  background-color: aliceblue;
+  border: 1px solid  rgba(0, 0, 0, 0.182);
+  border-radius: 5px;
+}
+
+.street input{
+  width: 100%;
+  height: 1.5em;
+  background-color: aliceblue;
+  border: 1px solid  rgba(0, 0, 0, 0.182);
+  border-radius: 5px;
+}
+
+.street{
+  margin-bottom: 2em;
+}
+
+.street label{
+  margin: 0;
+  font-size: 10px;
+  font-weight: 700;
+  margin-top: 2px;
+}
+
+.street{
+  margin-bottom: 2em;
+}
+
+.street-2 input{
+  width: 100%;
+  height: 1.5em;
+  background-color: aliceblue;
+  border: 1px solid  rgba(0, 0, 0, 0.182);
+  border-radius: 5px;
+}
+
+.street-2 label{
+  margin: 0;
+  font-size: 10px;
+  font-weight: 700;
+  margin-top: 2px;
+}
+
+.city-and-status{
+  margin-top: 2em;
+  display: flex;
+}
+
+.city-and-status input{
+  width: 50%;
+  height: 1.5em;
+  background-color: aliceblue;
+  border: 1px solid  rgba(0, 0, 0, 0.182);
+  border-radius: 5px;
+}
+
+.city-and-status label{
+  margin: 0;
+  font-size: 10px;
+  font-weight: 700;
+  margin-top: 2px;
+}
+.city-one{
+width: 50%;
+display: flex;
+flex-direction: column;
+}
+
+.city-one input{
+  margin: 0 5px 0 0;
+  width: 95%; /* to zmienić */
+}
+
+.status{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.status input{
+  margin: 0;
+  width: 100%;
+}
+
+.post-zip{
+  margin-top:2em;
+}
+
+.post-zip input{
+  width: 100%;
+  height: 1.5em;
+  background-color: aliceblue;
+  border: 1px solid  rgba(0, 0, 0, 0.182);
+  border-radius: 5px;
+}
+
+.post-zip label{
+  margin: 0;
+  font-size: 10px;
+  font-weight: 700;
+  margin-top: 2px;
+}

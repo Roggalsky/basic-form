@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" type="text/css" href="src/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+  <body>
+    <div class="job-application">
+      <div class="header">
+        <h1>Job Application</h1>
+        <p>Please complete the form to apply for a  position with us</p>
+      </div>
+      <div class="data">
+        <h5>Full Name</h5>
+        <div class="full-name">
+          <div class="a">
+              <input type="text" name="first_name">
+              <label for="first_name">First Name</label>
+          </div>
+          <div class="a">
+              <input type="text" name="first_name">
+              <label for="first_name">Middle Name</label>
+          </div>
+          <div class="a">
+              <input type="text" name="first_name">
+              <label for="first_name">Last Name</label>
+          </div>
+        </div>
+        <h5>Birth Data</h5>
+        <div class="date">
+          <div class="b">
+              <input type="number" name="date">
+              <label for="date">Day</label>
+          </div>
+          <div class="b">
+              <input type="number" name="first_name">
+              <label for="date">Month</label>
+          </div>
+          <div class="b">
+              <input type="number" name="date">
+              <label for="date">Year</label>
+          </div>
+        </div>
+        <h5>Current Address</h5>
+        <div class="street">
+            <input type="text" name="street">
+            <label for="address">Street Address</label>
+        </div>
+        <div class="street-2">
+            <input type="text" name="street-2">
+            <label for="address">Street Address Line 2</label>
+        </div>
+
+        <div class="city-and-status">
+          <div class="city-one">
+                <input type="text" name="city">
+                <label for="city">City</label>
+          </div>
+          <div class="status">
+                <input type="text" name="status">
+                <label for="status">Status/Province</label>
+          </div>
+        </div>
+        <div class="post-zip">
+          <input type="text" name="post-zip">
+          <label for="address">Postal / Zip Code</label>
+      </div>
+      </div>
+      <div class="email-section"></div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
